@@ -1,0 +1,20 @@
+.layout {
+    background-color: var(--color-bg-grey);  
+}
+
+.layout button{
+    color: #fff;
+   background-color: #FF474D;
+   
+}
+  
+.layout.active{
+    background-color: transparent;
+    position: sticky;
+    top: 10px;
+}
+
+.layout.active button{
+    color: black;
+    background-color: #fff;
+}

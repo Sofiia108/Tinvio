@@ -1,0 +1,46 @@
+:root {
+  --color-text-primary: #FF474D;
+  --color-text-second: #5C5C5C;
+  --color-text-main: #212121;
+  --color-text-placeholder: #BDBDBD;
+  --color-text-white: #FFFFFF;
+  --color-input: #F3F4F5;
+  --color-bg-grey: #F7F7F7;
+  --color-bg-black: #363636;
+
+  --color-bg-el-15per: linear-gradient(#DADADA, #FAFAFA);
+  --color-bg-el-20per: linear-gradient(#FFFFFF, #FAFAFA);
+  --color-bg-el-50per: linear-gradient(#F6F5F5, #FAFAFA); /**--color-bg-el-50%: lighten(linear-gradient(#F6F5F5, #FAFAFA), 20%),*/
+  --color-bg-el-60per: linear-gradient(#FFFFFF, #FAFAFA);
+
+  --color-bg-el-diamond-visual: #FB242B;
+  --color-bg-el-diamond-visual-60per: lighten(#FB242B, 20%); /*background-color: lighten(#FB242B, 20%);*/
+  --color-bg-el-diamond-for-black: linear-gradient(#6D6D6D, #FFFFFF);
+  
+  --color-button-primary: #FF474D;
+  --color-button-second: #FFFFFF;
+  --color-button-text: #212121;
+  --color-shadow: lighten(#212121, 10%);
+
+  --font-gilroy-title-1: 48px gilroy semibold;
+  --font-gilroy-title-2: 44px gilroy semibold;
+  --font-gilroy-title-3: 36px gilroy semibold;
+  --font-gilroy-title-4: 32px gilroy semibold;
+  --font-gilroy-title-5: 28px gilroy semibold;
+  --font-gilroy-subtitle-1: 24px gilroy semibold;
+  --font-gilroy-subtitle-2: 20px gilroy semibold;
+  --font-gilroy-description: 14px gilroy medium;
+
+  --font-inter-body-1: 18px inter regular;
+  --font-inter-body-2: 16px inter regular;
+  --font-inter-placeholder: 14px inter regular;
+  --font-inter-tabs: 14px inter regular;
+  --font-inter-error: 12px inter regular;
+}
+
+@media screen and (min-width: 375px) { 
+  #root {
+    width: 375px;
+  }
+}
+
